@@ -1,0 +1,23 @@
+{
+  "name": "cmo-restocks",
+  "version": "1.0.0",
+  "description": "a Supreme restock checker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdjsnelling/checkmeout-restocks.git"
+  },
+  "author": "Tom Snelling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdjsnelling/checkmeout-restocks/issues"
+  },
+  "homepage": "https://github.com/tdjsnelling/checkmeout-restocks#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  }
+}
