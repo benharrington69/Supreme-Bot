@@ -48,6 +48,8 @@ this event is emitted when stock is found on the current product page. it return
 	colour: String, 
 	price: String,
 	url: String,
+	description: String,
+	image: String,
 	sizes: Array
 }
 ```

@@ -80,6 +80,8 @@ var checkStock = (url, interval, proxy, cb) => {
 				product.name = $('.show #details h1').text();
 				product.colour = $('.show .style').text();
 				product.price = $('.show .price').text();
+				product.description = $('.show .description').text();
+				product.image = 'http:' + $('.show #img-main').attr('src');
 
 				$('#size option').each((i, el) => {
 					product.sizes.push($(el).text());
